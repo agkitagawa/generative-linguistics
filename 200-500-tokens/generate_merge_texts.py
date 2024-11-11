@@ -8,8 +8,8 @@ tokenizer = RobertaTokenizer.from_pretrained(model_name)
 
 min_cutoff = 200
 max_cutoff = 512
-folder_path = Path('/Users/annakitagawa/Downloads/Research/PTB/WSJ')
-output_folder = "/Users/annakitagawa/Downloads/Research/PTB/WSJ_medium_samples"
+folder_path = Path('../../PTB/WSJ')
+output_folder = "../../PTB/WSJ_sentence_samples"
 suff_size_text = []
 suff_size_trees = []
 no_space_before = ",.:;?!)]}'/-"
