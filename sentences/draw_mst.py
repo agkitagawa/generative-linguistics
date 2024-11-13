@@ -1,7 +1,7 @@
 import networkx as nx
 import matplotlib.pyplot as plt
 
-sample_num = 5
+sample_num = 47
 file_path = f"/Users/annakitagawa/Downloads/Research/PTB/WSJ_sentence_samples/msts/medium_sample_mst_{sample_num}.edgelist"
 
 G = nx.read_edgelist(file_path)
